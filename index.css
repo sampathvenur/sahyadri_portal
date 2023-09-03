@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.info-container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+
+
+}
+
+.portal-container {
+    border: 1px solid #cbcfd4;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: #d7dbdd solid 1px;
+    border-radius: 0.5em;
+    width: 90%;
+    padding: 3% 4% 3% 4%;
+    font-size: .85em;
+    color: #5c5c5c;
+    margin: 1em 0 1em 0;
+}
+
+.btn-green {
+    width: 90%;
+    font-size: 0.8em;
+    background-color: #44ac33;
+    color: #ffffff;
+    padding: 0.7em 1em;
+    border-radius: 0.3em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.head {
+    color: #336699;
+    font-family: 'SophosSansLight', sans-serif;
+}
+
+.signOutMessage {
+    display: block;
+    color: #565656;
+}
+
+#imageContainer img {
+    max-width: 50%;
+    height: auto;
+    max-height: 60px;
+}
